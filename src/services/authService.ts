@@ -2,7 +2,7 @@ import jwt from 'jsonwebtoken';
 import bcrypt from 'bcrypt';
 import { AppDataSource } from '../config/data-source';
 import { User } from '../entities/user';
-import { UnauthorizedError } from '../utils/error';
+import { UnauthorizedError } from '../utils/errors';
 import { config } from '../config/env';
 import { createLogger } from '../utils/logger';
 

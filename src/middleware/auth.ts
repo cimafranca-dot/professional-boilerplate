@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 import { AuthService } from '../services/authService';
-import { UnauthorizedError } from '../utils/error';
+import { UnauthorizedError } from '../utils/errors';
 import { createLogger } from '../utils/logger';
 
 

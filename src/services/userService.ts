@@ -1,6 +1,6 @@
 import { AppDataSource } from '../config/data-source';
 import { User } from '../entities/user';
-import { NotFoundError, ConflictError } from '../utils/error';
+import { NotFoundError, ConflictError } from '../utils/errors';
 import bcrypt from 'bcrypt';
 import { createLogger } from '../utils/logger';
 

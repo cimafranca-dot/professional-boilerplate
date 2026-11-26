@@ -1,6 +1,6 @@
 import { Request, Response, NextFunction } from 'express';
 import Joi from 'joi';
-import { ValidationError } from '../utils/error';
+import { ValidationError } from '../utils/errors';
 
 type ValidationSource = 'body' | 'params' | 'query';
 
